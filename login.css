@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+body {
+    margin: auto;
+    width: 1440px;
+}
+
+.wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* РАБОТА С first_login */
+
+.first_login {
+    background-color: #E2F0FF;
+}
+
+.img {
+    background-image: url(./assets/1.svg);
+    width: 524px;
+    height: 391px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* margin: auto auto auto auto; */
+}
+
+.first_login h2 {
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    color: #292731;
+    margin: 56px auto auto auto;
+}
+
+.first_login p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin: 23px auto auto auto;
+}
+
+
+/* РАБОТА С second_login */
+
+.img1 {
+    background-image: url(./assets/waving-hand.svg);
+    width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.second_login h1 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #292731;
+    margin: 20px 0 0 150px;
+}
+
+.second_login p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #292731;
+    /* margin: 30px 0 0 150px; */
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.login p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #455360;
+    padding-right: 10px;
+    width: 200px;
+}
+
+.imginformation {
+    background-image: url(./assets/information.svg);
+    width: 16px;
+    height: 16px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.inpLog input {
+    width: 440px;
+    height: 48px;
+    background: #ECF2F7;
+    border: 0.8px solid #ECF2F7;
+    padding-left: 10px;
+}
+
+.btn {
+    background: #4C70FF;
+    border-radius: 8px;
+    width: 440px;
+    padding: 10px 0;
+    text-align: center;
+}
